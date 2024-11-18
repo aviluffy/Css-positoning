@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            right: 30px;
+            border: 5px solid springgreen;
+        }
+        div.sticky{
+            position: sticky;
+            top: 2px;
+            left: 25px;
+            width: 100px;
+        }
+        div.relative{
+            position: relative;
+            border: 4px solid burlywood;
+            left: 25px;
+        } 
+        div.fixed{
+            position: fixed;
+            top: 2px;
+            right: 25px;
+            width: 300px;
+            border: 8px solid sienna;
+        }
+        div.absolute{
+            position: absolute;
+            left: 100px;
+            border: 7px solid salmon;
+        }
+    </style>
+</head>
+<body>
+    <h2>Positioning</h2>
+    <div>With no positioning</div>
+    <div class="sticky">Sticky property</div>
+    <div class="absolute">Absolute positioning
+        <div class="relative">relative positioning</div>
+    </div>
+    <div class="fixed">Fixed positioning</div>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+</body>
+</html>
